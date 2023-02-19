@@ -52,9 +52,8 @@ class GraphingCalculator extends Frame
 		 * @param maxY max y coordinate (right and left edges of the graph)
 		 * @param scale scale of the graph (how "zoomed in" it is)
 		 * @param resolution resolution of the graph (space between each point drawn; higher resolution = closer together)
-		 * @param plusMinus Whether the equation is +- or not
 		 */
-		void equation(Graphics g, int maxX, int maxY, int scale, int resolution, boolean plusMinus)
+		void equation(Graphics g, int maxX, int maxY, int scale, int resolution)
 		{
 			float x, y;
 
